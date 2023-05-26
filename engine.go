@@ -21,8 +21,6 @@ import (
 
 const (
 	scale int32 = 2
-
-	accountSummaryReqType string = "UASQ"
 )
 
 func queryOrigClOrdID() field.OrigClOrdIDField {
