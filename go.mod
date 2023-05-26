@@ -1,15 +1,29 @@
-module github.com/xntltd/golang-fix-api
+module github.com/abdukhashimov/golang-fix-api
 
-go 1.14
+go 1.20
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/quickfixgo/enum v0.0.0-20171007195659-2cbed3730c3e
-	github.com/quickfixgo/field v0.0.0-20171007195410-74cea5ec78c7
-	github.com/quickfixgo/fix44 v0.0.0-20171007213039-f090a1006218
-	github.com/quickfixgo/quickfix v0.6.1-0.20201117220910-8f22d9e20fca
-	github.com/quickfixgo/tag v0.0.0-20171007194743-cbb465760521 // indirect
-	github.com/shopspring/decimal v1.2.0
-	github.com/stretchr/objx v0.1.1 // indirect
-	golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect
+	github.com/quickfixgo/enum v0.1.0
+	github.com/quickfixgo/field v0.1.0
+	github.com/quickfixgo/fix44 v0.1.0
+	github.com/quickfixgo/quickfix v0.7.0
+	github.com/shopspring/decimal v1.3.1
+)
+
+require (
+	github.com/armon/go-proxyproto v0.0.0-20210323213023-7e956b284f0a // indirect
+	github.com/golang/snappy v0.0.4 // indirect
+	github.com/klauspost/compress v1.15.12 // indirect
+	github.com/montanaflynn/stats v0.6.6 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/quickfixgo/tag v0.1.0 // indirect
+	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
+	github.com/xdg-go/scram v1.1.1 // indirect
+	github.com/xdg-go/stringprep v1.0.3 // indirect
+	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a // indirect
+	go.mongodb.org/mongo-driver v1.11.1 // indirect
+	golang.org/x/crypto v0.3.0 // indirect
+	golang.org/x/net v0.4.0 // indirect
+	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/text v0.5.0 // indirect
 )
